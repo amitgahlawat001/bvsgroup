@@ -7,17 +7,23 @@ import Cards from '../card/Cards'
 import './home.css'
 import { bgSectionData } from '../bgSection/bgSectionData'
 import { Link } from 'react-router-dom'
+import { slideData } from '../lowerslide/sliderData'
 
 
 
 function Home() {
 
     const bgSection = useMemo(() => {
-        return bgSectionData.map((item) => <li key={item.name} className='list'> 
-            <img src ={item.image}/>
-            <Link to={item.path}>{item.text}</Link>
+        return bgSectionData.map((item) => <li key={item.name} className='list'>
+            <img src={item.image} />
+            <p>{item.text}</p>
         </li>)
     }, [])
+
+    const lowerSlider = useMemo(() => {
+        return slideData.map((item) => 
+        <img src={item.image}/>)
+    })
 
     return (
         <>
@@ -47,8 +53,20 @@ function Home() {
                 </p>
             </div>
             <div className="list">
-                {bgSection}
+                <h3 class="title">OUR SERVICES</h3>
+                <img src={line} height='40' width='30'/>
+                <div className="block-list">
+                    {bgSection}
+                </div>
             </div>
+            <div className="lower-slider">
+                <h3>Our Clients</h3>
+                <div className="slider">
+                {lowerSlider}
+                </div>
+            </div>
+
+
             {/* {/* <div className="services-area">
                 <div className="wrapper">
                     <h2 className="title2">Our Services</h2>

@@ -4,9 +4,8 @@
 .sub-txt {
     font-size: 1rem;
     padding: 1rem;
-    margin-left: 4rem;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+   display: flex;
+   flex-direction: column;
     justify-self: center;
     color: #333;
     font-family: 'Open Sans', sans-serif;
@@ -14,7 +13,7 @@
     margin-bottom: 1rem;
     align-items: center;
 }
-.title {
+h3 {
     color: #747171;
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
@@ -34,4 +33,10 @@ p{
     margin: 0;
     padding: 0;
     text-align: center;
+}
+.block-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 3rem;
 }
