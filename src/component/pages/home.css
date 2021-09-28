@@ -1,0 +1,37 @@
+.section {
+    padding: 1rem 0 0;
+}
+.sub-txt {
+    font-size: 1rem;
+    padding: 1rem;
+    margin-left: 4rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-self: center;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.title {
+    color: #747171;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+p{
+    margin: 1rem 2rem 2rem 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.list{
+    /* background-image: url('../../images/footerbackground.jpg'); */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {useMemo} from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import { socialMedia } from './socialMediaData';
 
 function Footer() {
+    const socialMediaLinks = useMemo(() => {
+        return socialMedia.map((item) => <Link>
+            {item.socialLogo}
+        </Link>)
+    })
+
     return (
         <div className='footer-container'>
             <section className='footer-subscription'>
@@ -65,48 +72,8 @@ function Footer() {
                         <Link>Privacy Policy  </Link>|
                         <Link>   Terms Of Use</Link>
                     </p>
-                    <div class='social-icons'>
-                        <Link
-                            class='social-icon-link facebook'
-                            to='/'
-                            target='_blank'
-                            aria-label='Facebook'
-                        >
-                            <i class='fab fa-facebook-f' />
-                        </Link>
-                        <Link
-                            class='social-icon-link instagram'
-                            to='/'
-                            target='_blank'
-                            aria-label='Instagram'
-                        >
-                            <i class='fab fa-instagram' />
-                        </Link>
-                        <Link
-                            class='social-icon-link youtube'
-                            to='/'
-                            target='_blank'
-                            aria-label='Youtube'
-                        >
-                            <i class='fab fa-youtube' />
-                        </Link>
-                        <Link
-                            class='social-icon-link twitter'
-                            to='/'
-                            target='_blank'
-                            aria-label='Twitter'
-                        >
-                            <i class='fab fa-twitter' />
-                        </Link>
-                        <Link
-                            class='social-icon-link twitter'
-                            to='/'
-                            target='_blank'
-                            aria-label='LinkedIn'
-                        >
-                            <i class='fab fa-linkedin' />
-                        </Link>
-                    </div>
+                    {socialMediaLinks}
+
                 </div>
             </section>
         </div>
