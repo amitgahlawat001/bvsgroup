@@ -3,10 +3,10 @@ import { useMemo } from 'react'
 import topslide1 from '../../images/topslider1.jpg'
 import topslide2 from '../../images/topslider2.jpg'
 import line from '../../images/hd-line.jpg'
+import line2 from '../../images/home-line3.png'
 import Cards from '../card/Cards'
 import './home.css'
 import { bgSectionData } from '../bgSection/bgSectionData'
-import { Link } from 'react-router-dom'
 import { slideData } from '../lowerslide/sliderData'
 
 
@@ -54,7 +54,7 @@ function Home() {
             </div>
             <div className="list">
                 <h3 class="title">OUR SERVICES</h3>
-                <img src={line} height='40' width='30'/>
+                <img src={line2}/>
                 <div className="block-list">
                     {bgSection}
                 </div>
@@ -65,68 +65,6 @@ function Home() {
                 {lowerSlider}
                 </div>
             </div>
-
-
-            {/* {/* <div className="services-area">
-                <div className="wrapper">
-                    <h2 className="title2">Our Services</h2>
-                    <div className="block-list">
-                        <ul>
-                            <li className="list">
-                                <img src={icon1} />
-                                <a href="https://contransgroup.com/services/air-freight-forwarding/">Air Freight Forwarding</a>
-                                <p>At CCL, we have a highly experienced team of air freight specialists who work on the customer’s needs of cost, tim</p>
-                            </li>
-                            <li className="list">
-                                <img src={icon2} />
-                                <a href="https://contransgroup.com/services/sea-freight-forwarding/">Sea Freight Forwarding</a>
-                                <p>Water bodies are the main source of transportation for international freight forwarding. Due to this, sea freight fo</p>
-                            </li>
-                            <li className="list">
-                                <img src={icon3} />
-                                <a href="https://contransgroup.com/services/road-transportation/">Road Transportation</a>
-                                <p>In the freight forwarding business, you are nowhere unless you have a fleet of relia</p>
-                            </li>
-                            <li className="list">
-                                <img src={icon4} />
-                                <a href="https://contransgroup.com/services/custom-clearance/">Custom Clearance</a>
-                                <p>Customs clearance is an extremely relevant part of CCL’s trading operations. This is so, because without customs c</p>
-                            </li>
-                            <li className="list">
-                                <img src={icon5} />
-                                <a href="https://contransgroup.com/services/world-wide-groupage/">World Wide Groupage</a>
-                                <p>Groupage forms a very important part of freight forwarding. In this process, CCL brings to together different, multi</p>
-                            </li>
-                            <li className="list">
-                                <img src={icon6} />
-                                <a href="https://contransgroup.com/services/storage-distribution/">Storage & Distribution</a>
-                                <p>CCL provides a network of storage and distribution facilities in international venues and helps customers enjoy lowe</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div> */}
-            {/* <div className="carousel-slide" data-bs-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img width="224" height="158" src={lowerslide1} className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img width="224" height="158" src={lowerslide2} className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img width="224" height="158" src={lowerslide3} className="d-block w-100" alt="..." />
-                    </div>
-                </div> 
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
-            </div> */}
         </>
     )
 }

@@ -11,6 +11,7 @@
     grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
     border-radius: 10px;
+    list-style: none;
   }
 
   .cards__item__link {

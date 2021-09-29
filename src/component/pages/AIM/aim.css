@@ -1,0 +1,11 @@
+.aboutBg {
+    background: url(../../../images/aboutbg1.jpg) no-repeat;
+    background-size: cover;
+    height: 20rem;
+    display: table;
+    width: 100%;
+}
+.wrapper p {
+    padding: 0px;
+    margin: 0 0 2rem;
+}

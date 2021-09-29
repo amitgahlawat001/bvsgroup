@@ -1,0 +1,129 @@
+.aboutBg {
+    background: url(../../../images/aboutbg1.jpg) no-repeat;
+    background-size: cover;
+    height: 20rem;
+    display: table;
+    width: 100%;
+}
+
+.aboutus-wrapper .ab-col2 h3 {
+    color: #747171;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 1rem 0 0 0;
+}
+
+.abt-title {
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: table-cell;
+    vertical-align: middle;
+}
+.abt-title span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.aboutus-wrapper{
+    display: flex;
+}
+.bgcolr {
+    background: #e8eef6;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    padding: 1rem;
+    vertical-align: baseline;
+}
+
+.bgcolr .wrapper h4{
+    margin-left: 2rem;
+}
+
+.ab-bg {
+    background: url(../../../images/aboutbg2.jpg) no-repeat top center fixed;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background-size: cover;
+    height: 38rem;
+    color: white;
+}
+
+.ab-bg p {
+    padding: 0 17px 25px;
+    text-align: center;
+    margin: 0;
+    color: #669ff5;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.abt-icn1 {
+    background: url(../../../images/abtbg-icon1.png) no-repeat top center;
+}
+
+.abt-icn2 {
+    background: url(../../../images/abtbg-icon2.png) no-repeat top center;
+}
+
+.abt-icn3 {
+    background: url(../../../images/abtbg-icon3.png) no-repeat top center;
+}
+
+.sub-box1 {
+    float: left;
+    width: 33%;
+    padding-top: 6rem;
+}
+
+.sub-box1 p {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-box1 p.txt-big {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.sub-box1 p.txt-big span {
+    display: block;
+    height: 1px;
+    margin: 1rem auto 1rem;
+    width: 5rem;
+    background: #fff;
+}
+
+@media only screen and (max-width: 1099px){
+.wrapper {
+    width: auto;
+    padding: 0 2rem;
+}
+}
+
+.title {
+    color: #747171;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.sub-txt {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background: url(../../../images/hd-line.jpg) no-repeat bottom center;
+}

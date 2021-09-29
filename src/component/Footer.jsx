@@ -30,7 +30,7 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>Quick <span>Links</span></h2>
-                        <Link to='/AboutUs'>About Us</Link>
+                        <Link to='/component/pages/aboutUs/aboutUs'>About Us</Link>
                         <Link to='/Clients'>Clients</Link>
                         <Link to='/Careers'>Careers</Link>
                         <Link to='/Contact'>Contact</Link>
@@ -56,11 +56,11 @@ function Footer() {
                     <div class='footer-link-wrapper'>
                         <div className="footer-link-items">
                             <h2>Locate <span>Us</span></h2>
-                            <i class="fas fa-map-marker-alt">  252 F, Second Floor, Sant Nagar,
+                            <i class="fas fa-map-marker-alt"></i>  252 F, Second Floor, Sant Nagar,
                                 East of Kailash,
-                                New Delhi - 110065, INDIA</i>
-                            <i class="fas fa-phone-alt">  +91-11-46527314, +91-11-26414598</i>
-                            <i class="fas fa-envelope"><Link>info@contransgroup.com</Link></i>
+                                New Delhi - 110065, INDIA
+                            <i class="fas fa-phone-alt"></i>  +91-11-46527314, +91-11-26414598
+                            <i class="fas fa-envelope"></i>info@contransgroup.com
                         </div>
                     </div>
                 </div>

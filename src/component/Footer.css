@@ -57,11 +57,11 @@
   
   .footer-link-wrapper {
     display: flex;
-    padding: 0 0 1rem 2rem;
+    padding: 0 0 1rem -1rem;
     margin: 0;
     color: #a4aeca;
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
     position: relative;
   }
   
@@ -72,7 +72,7 @@
     margin: 1rem;
     margin-top: auto;
     text-align: left;
-    width: 12rem;
+    width: 13rem;
     box-sizing: border-box;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
