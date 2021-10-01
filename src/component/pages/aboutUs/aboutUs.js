@@ -1,6 +1,7 @@
 import React from 'react'
 import './AboutUs.css'
 import aboutimg from '../../../images/about-img.jpg'
+import line from '../../../images/hd-line.jpg'
 
 function AboutUs() {
     return (
@@ -50,8 +51,9 @@ function AboutUs() {
             </div>
 
             <div className="wrapper">
-                <h1 className="title"><span>Information Management</span></h1>
-                <div className="sub-txt">Logistic Helps You Realise Your Business Goals</div>
+                <h3>Information Management</h3>
+                <div className="sub-txt">Logistic Helps You Realise Your Business Goals
+                <img src={line}/></div>
                 <div className="abt-cont">
                     <p>Information management is literally the foundation of a freight forwarding system. This is the system on which the entire process of freight forwarding works. From loading to unloading, from pick to delivery of goods, information management plays a pivotal role in knowing what step to take and when to take it. At CCL, we maintain a highly successful information management system, with online tracking forming a major part of this process. From the first activity of shipping the consignment to the last of the consignment reaching the desired place, the Internet acts as a tool to maintain a schedule of the things that have taken place and when and where this has been done. The system even lets you know about custom clearance status and the change in the means of transport as well.</p>
                     <p>With the help of our tracking system, the customer can get to know the status of their consignment with the help of numbers assigned to the consignment. This acts as a guide for the customer to constantly keep in touch with their consignment and inform beforehand if the consignment needs to reach the desired destination earlier than asked for previously. This helps CCL create a different route for the forwarding and allows us to ensure that the consignment reaches the said venue on time.</p>

@@ -44,7 +44,7 @@ function Home() {
             <div className="section">
                 <h1 className="title">Welcome to <span>Contrans Group</span></h1>
 
-                <div className="sub-txt">Logistic Helps You Realise Your Business Goals
+                <div className="sub-txt1">Logistic Helps You Realise Your Business Goals
                     <img src={line} />
                 </div>
                 <p>Contrans Group is an international freight forwarding firm with a strong foothold in the freight forwarding market. The company was founded in 2007 and has seen an upwards graph under the sturdy charge of its Director. Apart from China, the company has a grip on the freight forwarding markets of countries like

@@ -1,0 +1,11 @@
+.wrapper .title{
+    text-align: start;
+}
+
+
+.g-3{
+    padding: 2rem;
+    background-color: aliceblue;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}

@@ -4,6 +4,7 @@ import Footer from './component/Footer';
 import Header from './component/Header';
 import AboutUs from './component/pages/aboutUs/aboutUs';
 import Aim from './component/pages/AIM/aim';
+import Career from './component/pages/Career';
 import Clients from './component/pages/clients/clients';
 import Home from './component/pages/Home';
 
@@ -16,6 +17,7 @@ function App() {
           <Route path='/about-us' component={AboutUs}/>
           <Route path='/aim' component={Aim}/>
           <Route path='/clients' component={Clients}/>
+          <Route path='/career' component={Career}/>
         </switch>
          <Footer/>
      </Router>
