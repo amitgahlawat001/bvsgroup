@@ -62,19 +62,29 @@ function Header() {
                 <img src={logo} alt='/' />
             </Link>
             <div className="menu-icon" onClick={handleClick}>
-                <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
+                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
 
+            <div className='search-container'>
+                <div className='search-btn'>
+                    <div className='search-box'>
+                        <button className="btn-search" id='search-button'><i class="fas fa-search"></i></button>
+                        <input type="text" className="input-search" placeholder="Type to Search..." />
+                    </div>
+                </div>
+            </div>
 
             <div className='nav-wrapper'>
-                <div className='search-area'onClick={closeMobileMenu}>
+                <div className='search-area' onClick={closeMobileMenu}>
                     <input className='input-bar' type="search" name='search' id='search' autoComplete='false' value={search} onChange={(e) => setSearch(e.target.value)} placeholder='Search Here...' />
-                    {socialMediaLinks}
+                    <div className="socialmedialinks">
+                        {socialMediaLinks}
+                    </div>
                 </div>
 
 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        {navItems}
+                    {navItems}
                 </ul>
             </div>
         </div>

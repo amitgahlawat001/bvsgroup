@@ -1,4 +1,4 @@
-import React, {useMemo} from 'react';
+import React, { useMemo } from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 import { socialMedia } from './socialMediaData';
@@ -26,17 +26,17 @@ function Footer() {
                     <button type='submit' className='footer-submit-btn'>Submit</button>
                 </div>
             </section>
-            <div class='footer-links'>
+            <div className='footer-links'>
                 <div className='footer-link-wrapper'>
-                    <div class='footer-link-items'>
+                    <div className='footer-link-items'>
                         <h2>Quick <span>Links</span></h2>
                         <Link to='/about-us'>About Us</Link>
                         <Link to='/Clients'>Clients</Link>
                         <Link to='/Career'>Careers</Link>
                         <Link to='/Contact'>Contact</Link>
-                        
+
                     </div>
-                    <div class='footer-link-items'>
+                    <div className='footer-link-items'>
                         <h2>Services</h2>
                         <Link to='/SeaFreightForwarding'>Sea Freight Forwarding</Link>
                         <Link to='/CustomClearance'>Custom Clearance</Link>
@@ -46,33 +46,32 @@ function Footer() {
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
-                    <div class='footer-link-items'>
+                    <div className='footer-link-items'>
                         <Link to='/AirFreightForwarding'>Air Freight Forwarding</Link>
                         <Link to='/DoorToDoorLogistics'>Door to Door Logistics</Link>
                         <Link to='/RoadTransportation'>Road Transportation</Link>
                         <Link to='/WorldWideGroupage'>World Wide Groupage</Link>
                         <Link to='/InboundGroupage'>Inbound Groupage</Link>
                     </div>
-                    <div class='footer-link-wrapper'>
+                    <div className='footer-link-wrapper'>
                         <div className="footer-link-items">
                             <h2>Locate <span>Us</span></h2>
-                            <i class="fas fa-map-marker-alt"></i>  252 F, Second Floor, Sant Nagar,
-                                East of Kailash,
-                                New Delhi - 110065, INDIA
-                            <i class="fas fa-phone-alt"></i>  +91-11-46527314, +91-11-26414598
-                            <i class="fas fa-envelope"></i>info@contransgroup.com
+                            <i className="fas fa-map-marker-alt"></i>  252 F, Second Floor, Sant Nagar,
+                            East of Kailash,
+                            New Delhi - 110065, INDIA
+                            <i className="fas fa-phone-alt"></i>  +91-11-46527314, +91-11-26414598
+                            <i className="fas fa-envelope"></i>info@contransgroup.com
                         </div>
                     </div>
                 </div>
             </div>
-            <section class='social-media'>
-                <div class='social-media-wrap'>
-                    <small class='website-rights'>Copyright © 2014-15 Contain Group. All Rights Reserved</small>
-                        <Link>Privacy Policy  </Link>|
-                        <Link>   Terms Of Use</Link>
-    
-                    {socialMediaLinks}
-
+            <section className='social-media'>
+                <div className='social-media-wrap'>
+                    <small className='website-rights'>Copyright © 2014-15 Contain Group. All Rights Reserved   <Link>Privacy Policy  </Link>|
+                        <Link>   Terms Of Use</Link></small>
+                    <div className="socialmedialinks">
+                        {socialMediaLinks}
+                    </div>
                 </div>
             </section>
         </div>

@@ -13,17 +13,17 @@ function Cards() {
           <CardItem
             src={roadtransportation}
             text='In the freight forwarding business, you are nowhere unless you have a fleet of reliable vehicles..'
-            path='services/road-transportation'
+            path='/roadtransportation'
           />
           <CardItem
             src={airtransportation}
             text='At CCL, we have a highly experienced team of air freight specialists who work on the customer’s needs..'
-            path='/services/air-delivery'
+            path='/AirFreightForwarding'
           />
           <CardItem
             src={seatransportation}
             text='At CCL, we have a highly experienced team of air freight specialists who work on the customer’s needs..'
-            path='/services/air-delivery'
+            path='/SeaFreightForwarding'
           />
         </ul>
       </div>
