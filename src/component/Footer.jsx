@@ -68,10 +68,9 @@ function Footer() {
             <section class='social-media'>
                 <div class='social-media-wrap'>
                     <small class='website-rights'>Copyright © 2014-15 Contain Group. All Rights Reserved</small>
-                    <p>
                         <Link>Privacy Policy  </Link>|
                         <Link>   Terms Of Use</Link>
-                    </p>
+    
                     {socialMediaLinks}
 
                 </div>

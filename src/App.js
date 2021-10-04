@@ -32,7 +32,7 @@ function App() {
           <Route path='/AirFreightForwarding' component={AirFreightForwarding}/>
           <Route path='/CustomClearance' component={CustomClearance}/>
           <Route path='/DoorToDoor' component={DoorToDoor}/>
-          {/* <Route path='/EXIMConsultancy' component={EXIM}/> */}
+          <Route path='/EXIMConsultancy' component={EXIM}/>
           <Route path='/RoadTransportation' component={RoadTransportation}/>
           <Route path='/StorageDistribution' component={StorageDistribution}/>
           <Route path='/WorldWideGroupage' component={WorldWideGroupage}/>
