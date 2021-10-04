@@ -5,7 +5,7 @@ import { socialMedia } from './socialMediaData';
 
 function Footer() {
     const socialMediaLinks = useMemo(() => {
-        return socialMedia.map((item) => <Link>
+        return socialMedia.map((item) => <Link to={item.path}>
             {item.socialLogo}
         </Link>)
     })
@@ -14,7 +14,7 @@ function Footer() {
         <div className='footer-container'>
             <section className='footer-subscription'>
                 <p className='footer-subscription-text'>
-                    Stay In<span>Touch</span>
+                    <h1>Stay In<span>Touch</span></h1>
                 </p>
                 <div className='input-areas'>
                     <input
@@ -32,7 +32,7 @@ function Footer() {
                         <h2>Quick <span>Links</span></h2>
                         <Link to='/about-us'>About Us</Link>
                         <Link to='/Clients'>Clients</Link>
-                        <Link to='/Careers'>Careers</Link>
+                        <Link to='/Career'>Careers</Link>
                         <Link to='/Contact'>Contact</Link>
                         
                     </div>
@@ -40,8 +40,8 @@ function Footer() {
                         <h2>Services</h2>
                         <Link to='/SeaFreightForwarding'>Sea Freight Forwarding</Link>
                         <Link to='/CustomClearance'>Custom Clearance</Link>
-                        <Link to='/EXIM'>EXIM Consultancy</Link>
-                        <Link to='/torageDistribution'>Storage & Distribution</Link>
+                        <Link to='/EXIMConsultancy'>EXIM Consultancy</Link>
+                        <Link to='/StorageDistribution'>Storage & Distribution</Link>
                         <Link to='/OutboundGroupage'>Outbound Groupage</Link>
                     </div>
                 </div>
