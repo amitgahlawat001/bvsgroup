@@ -25,9 +25,8 @@ export default function BusinessData() {
         to: {
             size: open && type === 'export' ? '100%' : '25%',
             background: open && type === 'export' ? 'white' : '#ffca69',
-            // top:open && type === 'export' ? '0%':'40%',
-            // left:open && type === 'export' ? '0%':'30%'
-            size: open && type === 'import' ? '0%' : '25%',
+            top:open && type === 'export' ? '3%':'40%',
+            left:open && type === 'export' ? '9%':'30%',
         },
     })
 
@@ -38,9 +37,9 @@ export default function BusinessData() {
         to: {
             size: open && type === 'import' ? '100%' : '25%',
             background: open && type === 'import' ? 'white' : '#ffca69',
-            // top:open && type === 'import' ? '0%':'40%',
-            // right:open && type === 'import' ? '0%':'30%'
-            size: open && type === 'export' ? '0%' : '25%',
+            top:open && type === 'import' ? '3%':'40%',
+            right:open && type === 'import' ? '9%':'30%',
+            zIndex: open && type === 'export' ? '-1':'1'
         },
     })
 
