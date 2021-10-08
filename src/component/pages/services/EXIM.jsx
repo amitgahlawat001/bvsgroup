@@ -9,7 +9,7 @@ import BusinessData from './businessGuidLines/BusinessData'
 
 
 
-function EXIM() {
+function Exim() {
     const leftMenu = useMemo(() => {
         return menuItems.map((item) =>
             <a className='menu_link' href={item.link}>{item.title}</a>)
@@ -49,4 +49,4 @@ function EXIM() {
     )
 }
 
-export default EXIM
+export default Exim

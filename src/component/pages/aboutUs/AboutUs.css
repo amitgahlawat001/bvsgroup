@@ -1,7 +1,7 @@
 .aboutBg {
     background: url(../../../images/aboutbg1.jpg) no-repeat;
     background-size: cover;
-    height: 20rem;
+    height: auto;
     display: table;
     width: 100%;
 }
@@ -24,14 +24,17 @@
     display: table-cell;
     vertical-align: middle;
 }
+
 .abt-title span {
     display: block;
     font-size: 1rem;
     font-weight: 500;
 }
-.aboutus-wrapper{
+
+.aboutus-wrapper {
     display: flex;
 }
+
 .bgcolr {
     background: #e8eef6;
     font-family: inherit;
@@ -42,7 +45,7 @@
     vertical-align: baseline;
 }
 
-.bgcolr .wrapper h4{
+.bgcolr .wrapper h4 {
     margin-left: 2rem;
 }
 
@@ -106,11 +109,14 @@
     background: #fff;
 }
 
-@media only screen and (max-width: 1099px){
-.wrapper {
-    width: auto;
-    padding: 0 2rem;
+@media only screen and (max-width: 860px) {
+    .wrapper {
+        width: auto;
+        padding: 0 2rem;
+    }
 }
+.show-image{
+    width: -webkit-fill-available;
 }
 
 .title {
@@ -125,5 +131,12 @@
     color: #333;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    /* background: url() no-repeat bottom center; */
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 860px) {
+    .aboutus-wrapper {
+        display: block;
+    }
 }

@@ -32,3 +32,10 @@
     font-size: 2rem;
     color: blue;
 }
+.aboutBg {
+    background: url(../../../images/aboutbg1.jpg) no-repeat;
+    background-size: cover;
+    height: auto;
+    display: table;
+    width: 100%;
+}

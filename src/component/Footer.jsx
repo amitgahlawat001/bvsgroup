@@ -37,31 +37,28 @@ function Footer() {
 
                     </div>
                     <div className='footer-link-items'>
-                        <h2>Services</h2>
-                        <Link to='/SeaFreightForwarding'>Sea Freight Forwarding</Link>
-                        <Link to='/CustomClearance'>Custom Clearance</Link>
-                        <Link to='/EXIMConsultancy'>EXIM Consultancy</Link>
-                        <Link to='/StorageDistribution'>Storage & Distribution</Link>
-                        <Link to='/OutboundGroupage'>Outbound Groupage</Link>
-                    </div>
-                </div>
-                <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
-                        <Link to='/AirFreightForwarding'>Air Freight Forwarding</Link>
-                        <Link to='/DoorToDoorLogistics'>Door to Door Logistics</Link>
-                        <Link to='/RoadTransportation'>Road Transportation</Link>
-                        <Link to='/WorldWideGroupage'>World Wide Groupage</Link>
-                        <Link to='/InboundGroupage'>Inbound Groupage</Link>
-                    </div>
-                    <div className='footer-link-wrapper'>
-                        <div className="footer-link-items">
-                            <h2>Locate <span>Us</span></h2>
+                    <h2>Locate <span>Us</span></h2>
                             <i className="fas fa-map-marker-alt"></i>  252 F, Second Floor, Sant Nagar,
                             East of Kailash,
                             New Delhi - 110065, INDIA
                             <i className="fas fa-phone-alt"></i>  +91-11-46527314, +91-11-26414598
                             <i className="fas fa-envelope"></i>info@contransgroup.com
-                        </div>
+                       
+                    </div>
+                </div>
+                <div className='footer-link-wrapper'>
+                    <div className='footer-link-items'>
+                    <h2>Services</h2>
+                        <Link to='/SeaFreightForwarding'>Sea Freight Forwarding</Link>
+                        <Link to='/CustomClearance'>Custom Clearance</Link>
+                        <Link to='/EXIMConsultancy'>EXIM Consultancy</Link>
+                        <Link to='/StorageDistribution'>Storage & Distribution</Link>
+                        <Link to='/OutboundGroupage'>Outbound Groupage</Link>
+                        <Link to='/AirFreightForwarding'>Air Freight Forwarding</Link>
+                        <Link to='/DoorToDoor'>Door to Door Logistics</Link>
+                        <Link to='/RoadTransportation'>Road Transportation</Link>
+                        <Link to='/WorldWideGroupage'>World Wide Groupage</Link>
+                        <Link to='/InboundGroupage'>Inbound Groupage</Link>
                     </div>
                 </div>
             </div>
