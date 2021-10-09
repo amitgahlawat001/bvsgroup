@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from './component/Footer';
 import Header from './component/Header';
 import AboutUs from './component/pages/aboutUs/aboutUs';
 import Aim from './component/pages/AIM/aim';
-import Career from './component/pages/Career';
 import Clients from './component/pages/clients/clients';
 import Home from './component/pages/Home';
 import AirFreightForwarding from './component/pages/services/AirFreightForwarding';
@@ -17,6 +17,9 @@ import RoadTransportation from './component/pages/services/RoadTransportation';
 import SeaFreightForwarding from './component/pages/services/SeaFreightForwarding';
 import StorageDistribution from './component/pages/services/StorsgeDistribtion';
 import WorldWideGroupage from './component/pages/services/WorldWideGroupage';
+import ContactUs from './component/contactUs/ContactUs';
+import Career from './component/pages/career/Career';
+
 
 function App() {
     return (
@@ -36,8 +39,10 @@ function App() {
                 <Route path='/RoadTransportation' component={RoadTransportation} />
                 <Route path='/StorageDistribution' component={StorageDistribution} />
                 <Route path='/WorldWideGroupage' component={WorldWideGroupage} />
+                <Route path='/OutboundGroupage' component={InboundGroupage} />
                 <Route path='/OutboundGroupage' component={OutboundGroupage} />
-                <Route path='/InboundGroupage' component={InboundGroupage} />
+                <Route path='/ContactUs' component={ContactUs} />
+
             </switch>
             <Footer />
         </Router>

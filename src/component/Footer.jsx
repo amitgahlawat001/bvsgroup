@@ -33,7 +33,7 @@ function Footer() {
                         <Link to='/about-us'>About Us</Link>
                         <Link to='/Clients'>Clients</Link>
                         <Link to='/Career'>Careers</Link>
-                        <Link to='/Contact'>Contact</Link>
+                        <Link to='/ContactUs'>Contact</Link>
 
                     </div>
                     <div className='footer-link-items'>
@@ -42,7 +42,7 @@ function Footer() {
                             East of Kailash,
                             New Delhi - 110065, INDIA
                             <i className="fas fa-phone-alt"></i>  +91-11-46527314, +91-11-26414598
-                            <i className="fas fa-envelope"></i>info@contransgroup.com
+                            <i className="fas fa-envelope"></i><a href="mailto:info@contransgroup.com">info@contransgroup.com</a>
                        
                     </div>
                 </div>

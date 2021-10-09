@@ -9,3 +9,9 @@
     justify-content: space-between;
     margin-bottom: 5rem;
 }
+.sub-txt{
+    display: block;
+}
+.career-container{
+    padding: 5rem;
+}

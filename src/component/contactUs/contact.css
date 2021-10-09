@@ -1,0 +1,20 @@
+.right-col p.ct-icn1 {
+    background: url('../../images/mail.jpg') no-repeat 0 6px;
+    padding-left: 52px;
+}
+.right-col p.ct-icn2 {
+background: url('../../images/contact.jpg') no-repeat 0 0;
+padding-left: 52px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 2rem;
+}
+
+.right-col {
+   padding: 2rem;
+}
+.left-col {
+    padding: 2rem;
+ }

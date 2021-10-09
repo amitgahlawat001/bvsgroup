@@ -8,7 +8,7 @@ import { Corporate, Services, Utilities } from './dropDownData';
 import { socialMedia } from './socialMediaData';
 
 
-const menuItems = [{ title: 'Home', link: '' }, { title: 'Corporate', link: '' }, { title: 'Services', link: '' }, { title: 'Utilities', link: '' }, { title: 'Contact', link: '' }]
+const menuItems = [{ title: 'Home', link: '' }, { title: 'Corporate', link: '' }, { title: 'Services', link: '/SeaFreightForwarding' }, { title: 'Utilities', link: '' }, { title: 'Contact', link: '/ContactUs' }]
 
 
 function Header() {

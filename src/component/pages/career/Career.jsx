@@ -1,5 +1,5 @@
 import React from 'react'
-import line from '../../images/career-line.jpg'
+import line from '../../../images/career-line.jpg'
 import './career.css'
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from 'react';
@@ -16,10 +16,10 @@ const [state, setState] = useState(false)
       }
 
     return (
-        <div>
+        <div className='career-container'>
             <div class="wrapper">
                 <h1 class="title">Career</h1>
-                <img src={line} />
+                <img width='100%' src={line} alt='' />
                 <p className="sub-txt">You are welcome to send us your resume by email in soft form at <a href="mailto:info@contransgroup.com">info@contransgroup.com</a>. Please remember to include information about your education, nature and years of work experience, previous and current employers, present &amp; expected emoluments and position/role sought.</p>
             </div>
             <div class="row g-3">
