@@ -5,7 +5,7 @@ import React from 'react'
 
 const mapStyles = {
     width: '100%',
-    height: '50%',
+    height: '25rem',
 };
 
 function GoogleMap(props) {

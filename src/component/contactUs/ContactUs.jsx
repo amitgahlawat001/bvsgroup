@@ -20,7 +20,7 @@ function ContactUs() {
 
     return (
         <div>
-            <div className="main-container" style={{ height: '25rem', width: '100%' }}>
+            <div className="map-container" style={{ height: '25rem', width: '100%' }}>
                 <GoogleMap />
             </div>
             <div class="wrapper">

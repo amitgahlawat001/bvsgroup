@@ -26,8 +26,8 @@ function App() {
         <Router>
             <Header />
             <switch>
-                <Route path='/' exact component={Home} />
-                <Route path='/about-us' component={AboutUs} />
+                <Route path='/Home' exact component={Home} />
+                <Route path='/AboutUs' component={AboutUs} />
                 <Route path='/aim' component={Aim} />
                 <Route path='/clients' component={Clients} />
                 <Route path='/career' component={Career} />
@@ -39,7 +39,7 @@ function App() {
                 <Route path='/RoadTransportation' component={RoadTransportation} />
                 <Route path='/StorageDistribution' component={StorageDistribution} />
                 <Route path='/WorldWideGroupage' component={WorldWideGroupage} />
-                <Route path='/OutboundGroupage' component={InboundGroupage} />
+                <Route path='/InboundGroupage' component={InboundGroupage} />
                 <Route path='/OutboundGroupage' component={OutboundGroupage} />
                 <Route path='/ContactUs' component={ContactUs} />
 

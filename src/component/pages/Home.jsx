@@ -8,6 +8,7 @@ import Cards from '../card/Cards'
 import './home.css'
 import { bgSectionData } from '../bgSection/bgSectionData'
 import { slideData } from '../lowerslide/sliderData'
+import { Link } from 'react-router-dom'
 
 
 
@@ -15,7 +16,8 @@ function Home() {
 
     const bgSection = useMemo(() => {
         return bgSectionData.map((item) => <li key={item.name} className='list'>
-            <img src={item.image} />
+            <Link to={item.path}>
+            <img src={item.image} alt='' /></Link>
             <p>{item.text}</p>
         </li>)
     }, [])

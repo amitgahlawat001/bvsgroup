@@ -30,7 +30,7 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Quick <span>Links</span></h2>
-                        <Link to='/about-us'>About Us</Link>
+                        <Link to='/AboutUs'>About Us</Link>
                         <Link to='/Clients'>Clients</Link>
                         <Link to='/Career'>Careers</Link>
                         <Link to='/ContactUs'>Contact</Link>
