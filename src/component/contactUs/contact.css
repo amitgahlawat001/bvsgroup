@@ -6,7 +6,7 @@
 background: url('../../images/contact.jpg') no-repeat 0 0;
 padding-left: 52px;
 }
-.wrapper{
+.contact-wrapper{
     display: grid;
     grid-template-columns: 60% 40%;
     padding: 2rem;

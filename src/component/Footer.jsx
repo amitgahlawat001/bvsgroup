@@ -38,11 +38,10 @@ function Footer() {
                     </div>
                     <div className='footer-link-items'>
                     <h2>Locate <span>Us</span></h2>
-                            <i className="fas fa-map-marker-alt"></i>  252 F, Second Floor, Sant Nagar,
-                            East of Kailash,
-                            New Delhi - 110065, INDIA
-                            <i className="fas fa-phone-alt"></i>  +91-11-46527314, +91-11-26414598
-                            <i className="fas fa-envelope"></i><a href="mailto:info@contransgroup.com">info@contransgroup.com</a>
+                            <i className="fas fa-map-marker-alt"></i>  A-36/GF Gali NO -02 
+                                Jagatpuri Delhi -110051, INDIA
+                            <i className="fas fa-phone-alt"></i>  +91-9654550819
+                            <i className="fas fa-envelope"></i><a href="mailto: info@bvsgroup.in"> info@bvsgroup.in</a>
                        
                     </div>
                 </div>

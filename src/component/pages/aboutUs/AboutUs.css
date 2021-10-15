@@ -109,8 +109,14 @@
     background: #fff;
 }
 
+.ab-bg .wrapper,
+.bgcolr .wrapper, .wrapper1{
+    display: block;
+    padding: 2rem;
+}
+
 @media only screen and (max-width: 860px) {
-    .wrapper {
+    .ab-bg .wrapper {
         width: auto;
         padding: 0 2rem;
     }
@@ -127,7 +133,7 @@
     text-align: center;
 }
 
-.sub-txt {
+.sub-txt1 {
     color: #333;
     font-family: 'Open Sans', sans-serif;
     text-align: center;

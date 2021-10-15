@@ -102,9 +102,9 @@ function AboutUs() {
         </div>
       </div>
 
-      <div className="wrapper">
+      <div className="wrapper1">
         <h3>Information Management</h3>
-        <div className="sub-txt">
+        <div className="sub-txt1">
           Logistic Helps You Realise Your Business Goals
           <img src={line} />
         </div>
