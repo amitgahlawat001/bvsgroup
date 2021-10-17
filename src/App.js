@@ -19,6 +19,8 @@ import StorageDistribution from './component/pages/services/StorsgeDistribtion';
 import WorldWideGroupage from './component/pages/services/WorldWideGroupage';
 import ContactUs from './component/contactUs/ContactUs';
 import Career from './component/pages/career/Career';
+import WorldClock from './component/pages/utilities/WorldClock/WorldClock';
+import CurrencyConverter from './component/pages/utilities/CurrencyConverter';
 
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
                 <Route path='/WorldWideGroupage' component={WorldWideGroupage} />
                 <Route path='/InboundGroupage' component={InboundGroupage} />
                 <Route path='/OutboundGroupage' component={OutboundGroupage} />
+                <Route path='/WorldClock' component={WorldClock} />
+                <Route path='/CurrencyConverter' component={CurrencyConverter} />
                 <Route path='/ContactUs' component={ContactUs} />
 
             </switch>

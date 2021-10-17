@@ -51,8 +51,8 @@ function Header() {
                         <NavDropdown.Item href="http://contransgroup.com/wp-content/uploads/2015/08/container-sizes.pdf">Container Sizes</NavDropdown.Item>
                         <NavDropdown.Item href="http://contransgroup.com/wp-content/uploads/2015/08/ff-consol-manual.pdf">Shipments Terms</NavDropdown.Item>
                         <NavDropdown.Item  href="http://contransgroup.com/wp-content/uploads/2017/01/portsoftheworld.pdf">Port Directions</NavDropdown.Item>
-                        <NavDropdown.Item href="https://contransgroup.com/currency-converter/">Currency Converter</NavDropdown.Item>
-                        <NavDropdown.Item href="https://contransgroup.com/world-clock/">World Clock</NavDropdown.Item>
+                        <NavDropdown.Item href="/CurrencyConverter">Currency Converter</NavDropdown.Item>
+                        <NavDropdown.Item href="/WorldClock">World Clock</NavDropdown.Item>
                     </NavDropdown>
 
                     <Nav.Link href="/AboutUs">About Us</Nav.Link>
