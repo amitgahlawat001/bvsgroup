@@ -23,7 +23,7 @@ function Header() {
         <Navbar bg="dark" variant="dark"
             sticky="top" expand="sm" collapseOnSelect>
             <Navbar.Brand>
-                <img src={logo} width="50rem" height="50rem" />{' '}
+                <a href='/' ><img src={logo} width="50rem" height="50rem" alt='/' /></a>
             </Navbar.Brand>
             <Navbar.Toggle className="coloring" />
             <Navbar.Collapse>

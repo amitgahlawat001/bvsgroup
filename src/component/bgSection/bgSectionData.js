@@ -28,7 +28,7 @@ export const bgSectionData = [
         name: 'icon4',
         image: icon4,
         text: 'Customs clearance is an extremely relevant part of CCL’s trading operations. This is so, because without customs c',
-        path: '/CustomsClearance',
+        path: '/CustomClearance',
     },
     {
         name: 'icon5',
