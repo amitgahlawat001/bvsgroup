@@ -3,6 +3,7 @@ import { useMemo } from 'react'
 import topslide1 from '../../images/topslider1.jpg'
 import topslide2 from '../../images/topslider2.jpg'
 import line from '../../images/hd-line.jpg'
+import hdline from '../../images/hd-line2.png'
 import line2 from '../../images/home-line3.png'
 import Cards from '../card/Cards'
 import './home.css'
@@ -30,6 +31,12 @@ function Home() {
     return (
         <>
             <div className='top-slide'>
+            <div className="abt-sec">
+				<p className="hd-title1">PROVIDING FIRST CLASS</p>
+				<p className="hd-title2">FREIGHT SERVICES</p>
+                <img width='75%' src={hdline} alt='' />
+				<p className="hd-title3">LOGISTIC HELPS YOU REALISE YOUR BUSINESS GOALS</p>
+			</div>
                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
@@ -55,7 +62,7 @@ function Home() {
                 </p>
             </div>
             <div className="list">
-                <h3 class="title">OUR SERVICES</h3>
+                <h3 className="title">OUR SERVICES</h3>
                 <img src={line2}/>
                 <div className="block-list">
                     {bgSection}

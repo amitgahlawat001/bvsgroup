@@ -31,20 +31,20 @@ function ContactUs() {
                     <div className="row g-3">
                         <div className="col">
                             <label for="inputFName4" className="form-label">First Name</label>
-                            <input type="text" className="form-control" aria-label="First name" />
+                            <input type="text" className="form-control" aria-label="First name" name='fName'/>
                         </div>
                         <div className="col">
                             <label for="inputLName4" className="form-label">last Name</label>
-                            <input type="text" className="form-control" aria-label="Job Title" />
+                            <input type="text" className="form-control" aria-label="Job Title" name='lName'/>
                         </div>
                         <div className="col2">
                             <label for="inputEmail4" className="form-label">Email</label>
-                            <input type="email" className="form-control" id="inputEmail4" />
+                            <input type="email" className="form-control" id="inputEmail4" name='email'/>
                         </div>
                         <div className="mb-3">
                             <label for="inputJob4" className="form-label">Message</label>
                             <div className="form-floating">
-                                <textarea className="form-control" id="floatingTextarea2" style={{ height: 100 }}></textarea>
+                                <textarea className="form-control" id="floatingTextarea2" style={{ height: 100 }} name='message'></textarea>
                                 <label for="floatingTextarea2">Leave your message here</label>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ function ContactUs() {
                                 Jagatpuri Delhi -110051, INDIA</p>
                     <p className="ct-icn2">
                         Phone: +91-9654550819<br />
-                        Email: <a href="mailto:info@bvsgroup.in ">info@bvsgroup.in</a></p>
+                        Email: <a href="mailto: info@bvsgroup.in"> info@bvsgroup.in</a></p>
                     <h1 className="title">Follow <span>Us</span></h1>
                     <div className='socilamedia'>
                         {socialMediaLinks}
