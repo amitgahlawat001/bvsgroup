@@ -36,8 +36,9 @@ border-radius: 50%;
 cursor: pointer;
 }
 .result{
+margin-top: 4rem;
 box-sizing: border-box;
-width: 40rem;
+width: auto;
 padding-left: 30px;
 }
 .converter-button{
@@ -51,4 +52,14 @@ cursor: pointer;
 }
 .result p{
 font-size: 30px;
+}
+
+@media screen and (max-width: 820px){
+
+    .currency-container{
+        display: contents;
+    }
+    .result{
+        padding-left: 1rem;
+    }
 }

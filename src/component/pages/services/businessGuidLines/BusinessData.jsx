@@ -26,7 +26,7 @@ export default function BusinessData() {
             size: open && type === 'export' ? '100%' : '25%',
             background: open && type === 'export' ? 'white' : '#ffca69',
             top:open && type === 'export' ? '3%':'40%',
-            left:open && type === 'export' ? '9%':'30%',
+            left:open && type === 'export' ? '11%':'30%',
         },
     })
 
