@@ -115,11 +115,23 @@
     padding: 2rem;
 }
 
+
 @media only screen and (max-width: 860px) {
     .ab-bg .wrapper {
         width: auto;
         padding: 0 2rem;
+
     }
+    .ab-bg{
+        height: 100rem;
+    }
+    .sub-box-container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 .show-image{
     width: -webkit-fill-available;

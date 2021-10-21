@@ -14,18 +14,18 @@ function AboutUs() {
 
       <div className="aboutus-wrapper">
         <div className="ab-col1">
-          <img className='show-image' src={aboutimg} alt="" />
+          <img width='100%' className="show-image" src={aboutimg} alt="" />
         </div>
         <div className="ab-col2">
           <h3 className="subtitle">
-            The company was founded in 2007 and has seen an upwards graph
+            The company was founded in 2021 and has seen an upwards graph
           </h3>
           <p>
-            BVS Global Logistics Pvt. Ltd. CCL is an international freight
+            BVS Global Logistics is an international freight
             forwarding firm with a strong foothold in the world-wide freight
             forwarding market. The company is known for its customer-based
             approach to the freight forwarding business and guarantees nothing
-            less than the very best to its customer. At CCL, customers are not
+            less than the very best to its customer. At BVS, customers are not
             just firms or individuals involved in business, they are our family
             and everybody knows that family ALWAYS comes first. We believe in
             maintaining long-term relationships with our customers and always
@@ -48,17 +48,17 @@ function AboutUs() {
             We have strong principles that act as our compass and point us north
             in the direction of customer satisfaction and constant progress!
             With a management as experienced and wise as ours, customers sit
-            back and relax as we make things possible for them. CCL has the best
+            back and relax as we make things possible for them. BVS has the best
             of connections and employees that constantly work to get customers
             what they want, where and when they want it. For us, customer
             satisfaction is apex and every step we take towards our work, only
             brings us closer to this goal.
           </p>
           <p>
-            Apart from such an atmosphere, CCL has the highest standards of work
+            Apart from such an atmosphere, BVS has the highest standards of work
             that see the company through many a high-priority project. It is
             here that our adherence to a stringent project completion timeline
-            comes in handy. At CCL, we know how much value your time. We know
+            comes in handy. At BVS, we know how much value your time. We know
             this because we value it more! That is why we make sure you get your
             content on time. We believe that our customers come to us with high
             expectations and we make sure we deliver them on the dot and deliver
@@ -78,7 +78,7 @@ function AboutUs() {
             international network of partners and agents, making us a truly
             global player that offers services worldwide.
           </p>
-
+        <div className='sub-box-container'>
           <div className="sub-box1 abt-icn1">
             <p className="txt-big">
               50<span></span>
@@ -99,6 +99,7 @@ function AboutUs() {
             </p>
             <p>TONS OF AIR FREIGHT EVERY YEAR</p>
           </div>
+          </div>
         </div>
       </div>
 
@@ -106,7 +107,7 @@ function AboutUs() {
         <h3>Information Management</h3>
         <div className="sub-txt1">
           Logistic Helps You Realise Your Business Goals
-          <img src={line} />
+          <img width='100%' src={line} alt='' />
         </div>
         <div className="abt-cont">
           <p>
@@ -114,7 +115,7 @@ function AboutUs() {
             forwarding system. This is the system on which the entire process of
             freight forwarding works. From loading to unloading, from pick to
             delivery of goods, information management plays a pivotal role in
-            knowing what step to take and when to take it. At CCL, we maintain a
+            knowing what step to take and when to take it. At BVS, we maintain a
             highly successful information management system, with online
             tracking forming a major part of this process. From the first
             activity of shipping the consignment to the last of the consignment
@@ -129,7 +130,7 @@ function AboutUs() {
             the consignment. This acts as a guide for the customer to constantly
             keep in touch with their consignment and inform beforehand if the
             consignment needs to reach the desired destination earlier than
-            asked for previously. This helps CCL create a different route for
+            asked for previously. This helps BVS create a different route for
             the forwarding and allows us to ensure that the consignment reaches
             the said venue on time.
           </p>

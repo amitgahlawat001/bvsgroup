@@ -15,3 +15,9 @@
 .career-container{
     padding: 5rem;
 }
+
+@media screen and (max-width: 820px){
+    .g-3 {
+        display: block;
+    }
+ }

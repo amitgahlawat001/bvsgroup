@@ -19,7 +19,7 @@ padding-left: 52px;
     padding: 2rem;
  }
  @media screen and (max-width: 820px){
-    .wrapper{
+    .contact-wrapper{
         display: block;
     }
  }

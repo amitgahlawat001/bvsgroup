@@ -1,6 +1,6 @@
 import React from 'react'
 import { useMemo } from 'react'
-import seatransportation from '../../../images/seafreight.jpg'
+import seatransportation from '../../../images/sea-delivery.jpg'
 import line from '../../../images/career-line.jpg'
 import './Services.css'
 import { menuItems } from './sideMenuItems'

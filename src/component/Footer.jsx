@@ -63,8 +63,7 @@ function Footer() {
             </div>
             <section className='social-media'>
                 <div className='social-media-wrap'>
-                    <small className='website-rights'>Copyright © 2014-15 Contain Group. All Rights Reserved   <Link>Privacy Policy  </Link>|
-                        <Link>   Terms Of Use</Link></small>
+                    <small className='website-rights'>Copyright © 2014-15 Contain Group. All Rights Reserved </small>
                     <div className="socialmedialinks">
                         {socialMediaLinks}
                     </div>

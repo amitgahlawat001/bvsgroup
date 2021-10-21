@@ -20,7 +20,7 @@ function Header() {
 
     return (
 
-        <Navbar bg="dark" variant="dark"
+        <Navbar bg="light" variant="light"
             sticky="top" expand="sm" collapseOnSelect>
             <Navbar.Brand>
                 <a href='/' ><img src={logo} width="50rem" height="50rem" alt='/' /></a>
@@ -50,7 +50,6 @@ function Header() {
                         <NavDropdown.Item href="http://contransgroup.com/wp-content/uploads/2015/08/portsoftheworld.pdf">Worldwide Ports</NavDropdown.Item>
                         <NavDropdown.Item href="http://contransgroup.com/wp-content/uploads/2015/08/container-sizes.pdf">Container Sizes</NavDropdown.Item>
                         <NavDropdown.Item href="http://contransgroup.com/wp-content/uploads/2015/08/ff-consol-manual.pdf">Shipments Terms</NavDropdown.Item>
-                        <NavDropdown.Item  href="http://contransgroup.com/wp-content/uploads/2017/01/portsoftheworld.pdf">Port Directions</NavDropdown.Item>
                         <NavDropdown.Item href="/CurrencyConverter">Currency Converter</NavDropdown.Item>
                         <NavDropdown.Item href="/WorldClock">World Clock</NavDropdown.Item>
                     </NavDropdown>

@@ -3,6 +3,10 @@
     animation-name: fade-img;
     animation-duration: 2s;
   }
+  .cards__item__img{
+    width: 16rem;
+    height: 13rem;
+  }
 
   .cards_items{
     width: 100%;

@@ -1,6 +1,11 @@
+.navbar .socialmedialinks a{
+  color: blue;
+}
 @media screen and (max-width: 860px) {
-  .search-area,
-  .socialmedialinks {
+  .search-area {
+    display: none;
+  }
+  .navbar .socialmedialinks{
     display: none;
   }
 }
