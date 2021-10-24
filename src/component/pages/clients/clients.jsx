@@ -4,8 +4,8 @@ import { slideData } from "../../lowerslide/sliderData";
 
 function Clients() {
   const lowerSlider = useMemo(() => {
-    return slideData.map((item) => <img src={item.image} />);
-  });
+    return slideData.map((item) => <img className='clients' src={item.image} alt='' />);
+  },[]);
 
   return (
     <>

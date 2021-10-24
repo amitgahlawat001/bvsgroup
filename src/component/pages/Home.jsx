@@ -25,8 +25,8 @@ function Home() {
 
     const lowerSlider = useMemo(() => {
         return slideData.map((item) => 
-        <img src={item.image}/>)
-    })
+        <img className='clients' src={item.image} alt='' />)
+    }, [])
 
     return (
         <>
@@ -56,7 +56,7 @@ function Home() {
                 <div className="sub-txt1">Logistic Helps You Realise Your Business Goals
                     <img width='75%' src={line} alt='' />
                 </div>
-                <p>BVS Global logistics is an international freight forwarding firm with a strong foothold in the freight forwarding market. The company was founded in 2007 and has seen an upwards graph under the sturdy charge of its Director. Apart from China, the company has a grip on the freight forwarding markets of countries like
+                <p>BVS Global logistics is an international freight forwarding firm with a strong foothold in the freight forwarding market. The company was founded in 2021 and has seen an upwards graph under the sturdy charge of its Director. Apart from China, the company has a grip on the freight forwarding markets of countries like
                     Southeast Asia, Middle East, Europe and USA.</p>
                 <p>The company is known for its customer-based approach to the freight forwarding business and guarantees nothing less than the very best to its customer. At BVS Global, customers are not just firms or individuals involved in business, they are our family and everybody knows that family ALWAYS comes first. We believe in maintaining long-term relationships with our customers and always look out for what's best for them. With competitive rates and equally competitive services, we offer customer satisfaction in the field of sea freight forwarding, air freight forwarding, road transportation , storage, distribution, and international groupage.
                 </p>

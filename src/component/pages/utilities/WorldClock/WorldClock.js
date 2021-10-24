@@ -17,9 +17,9 @@ function WorldClock() {
                   <h3>USA<br/><ClockApp timezone='US/Pacific'/></h3>
                   <h3>Australia<br/><ClockApp timezone='Australia/Sydney'/></h3>
                   <h3>India<br/><ClockApp timezone='India/NewDelhi'/></h3>
-                  <h3>China<br/><ClockApp timezone='China'/></h3>
+                  <h3>China<br/><ClockApp timezone='Asia/Shanghai'/></h3>
                   <h3>Japan<br/><ClockApp timezone='Japan'/></h3>
-                  <h3>Russia<br/><ClockApp timezone='Russia'/></h3>
+                  <h3>Korea<br/><ClockApp timezone='ROK'/></h3>
                 </div>
                 
             </div>
