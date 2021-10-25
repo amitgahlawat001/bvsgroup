@@ -20,8 +20,7 @@ function WorldClock() {
                   <h3>China<br/><ClockApp timezone='Asia/Shanghai'/></h3>
                   <h3>Japan<br/><ClockApp timezone='Japan'/></h3>
                   <h3>Korea<br/><ClockApp timezone='ROK'/></h3>
-                </div>
-                
+                </div>    
             </div>
         </div>
     )

@@ -19,7 +19,7 @@ function InboundGroupage() {
     })
     return (
         <>
-         <img className='aboutBg' src={image} />
+         <img className='aboutBg' src={image} alt='' />
             <div className='container'>
                 <div className='content-area'>
                    

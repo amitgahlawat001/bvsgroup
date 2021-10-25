@@ -9,7 +9,7 @@
 
   color: darkgray;
 }
-.container .exim-container {
+.container{
     height: auto;
   display: grid;
   grid-template-columns: 70% 30%;
@@ -19,6 +19,10 @@
 
 .exim-container{
   height: 60rem;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 .titlebox {
   font-family: "Roboto", sans-serif;
@@ -50,5 +54,8 @@
   }
   .content-area {
     width: inherit;
+  }
+  .exim-container{
+    display: block;
   }
 }

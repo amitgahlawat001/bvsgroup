@@ -21,9 +21,9 @@ function Exim() {
     }, [])
     return (
         <>
-            <img className='aboutBg' src={image} />
+            <img className='aboutBg' src={image} alt='' />
             <div className='exim-container'>
-                <div className='content-area' style={{ height: "47rem"}}>
+                <div className='content-area' style={{ height: "47rem" }}>
 
                     <h1 className='title' style={{ textAlign: 'start' }} >EXIM Consultancy</h1>
                     <img width='100%' src={line} />
