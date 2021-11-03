@@ -47,9 +47,9 @@ function Header() {
                         <NavDropdown.Item href="/InboundGroupage">Inbound Groupage</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Utilities">
-                        <NavDropdown.Item href="http://contransgroup.com/wp-content/uploads/2015/08/portsoftheworld.pdf">Worldwide Ports</NavDropdown.Item>
-                        <NavDropdown.Item href="http://contransgroup.com/wp-content/uploads/2015/08/container-sizes.pdf">Container Sizes</NavDropdown.Item>
-                        <NavDropdown.Item href="http://contransgroup.com/wp-content/uploads/2015/08/ff-consol-manual.pdf">Shipments Terms</NavDropdown.Item>
+                        <NavDropdown.Item href="http://contransgroup.com/wp-content/uploads/2015/08/portsoftheworld.pdf" target='_blank'>Worldwide Ports</NavDropdown.Item>
+                        <NavDropdown.Item href="http://contransgroup.com/wp-content/uploads/2015/08/container-sizes.pdf" target='_blank'>Container Sizes</NavDropdown.Item>
+                        <NavDropdown.Item href="http://contransgroup.com/wp-content/uploads/2015/08/ff-consol-manual.pdf" target='_blank'>Shipments Terms</NavDropdown.Item>
                         <NavDropdown.Item href="/CurrencyConverter">Currency Converter</NavDropdown.Item>
                         <NavDropdown.Item href="/WorldClock">World Clock</NavDropdown.Item>
                     </NavDropdown>

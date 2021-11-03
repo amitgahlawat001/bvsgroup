@@ -6,7 +6,7 @@ import line from "../../../images/hd-line.jpg";
 function AboutUs() {
   return (
     <>
-      <div className="aboutBg">
+      <div className="about">
         <div className="abt-title">
           ABOUT US <span>LOGISTIC HELPS YOU REALISE YOUR BUSINESS GOALS</span>
         </div>

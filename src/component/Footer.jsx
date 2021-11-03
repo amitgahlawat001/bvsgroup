@@ -23,7 +23,7 @@ function Footer() {
                         type='email'
                         placeholder='Your Email'
                     />
-                    <button type='submit' className='footer-submit-btn'>Submit</button>
+                    <button type='submit' className='footer-submit-btn'><a href="mailto:info@bvsgroup.com">Submit</a></button>
                 </div>
             </section>
             <div className='footer-links'>

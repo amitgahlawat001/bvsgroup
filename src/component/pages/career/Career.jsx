@@ -20,24 +20,24 @@ const [state, setState] = useState(false)
             <div class="wrapper">
                 <h1 class="title">Career</h1>
                 <img width='100%' src={line} alt='' />
-                <p className="sub-txt">You are welcome to send us your resume by email in soft form at <a href="mailto:info@contransgroup.com">info@contransgroup.com</a>. Please remember to include information about your education, nature and years of work experience, previous and current employers, present &amp; expected emoluments and position/role sought.</p>
+                <p className="sub-txt">You are welcome to send us your resume by email in soft form at <a href="mailto:info@bvsgroup.com">info@bvsgroup.com</a>. Please remember to include information about your education, nature and years of work experience, previous and current employers, present &amp; expected emoluments and position/role sought.</p>
             </div>
             <div class="row g-3">
                 <div class="col">
                     <label for="inputName4" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" aria-label="Full name" />
+                    <input type="text" class="form-control" aria-label="Full name" required />
                 </div>
                 <div class="col">
                     <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" />
+                    <input type="email" class="form-control" id="inputEmail4" required />
                 </div>
                 <div class="col">
                     <label for="inputJob4" class="form-label">Job Title</label>
-                    <input type="text" class="form-control" aria-label="Job Title" />
+                    <input type="text" class="form-control" aria-label="Job Title" required />
                 </div>
                 <div class="mb-3">
                     <label for="formFile" class="form-label">Upload Your resume</label>
-                    <input class="form-control" type="file" id="formFile" />
+                    <input class="form-control" type="file" id="formFile" required />
                 </div>
                 <div class="mb-3">
                     <label for="inputJob4" class="form-label">Message</label>
@@ -52,7 +52,7 @@ const [state, setState] = useState(false)
                         onChange={onChange}
                     />
                     <div class="col-auto">
-                        <button type="submit" class="btn btn-primary" disabled={!state.isVerified}>Submit</button>
+                        <button type="submit" class="btn btn-primary" disabled={!state.isVerified}><a href="mailto:info@bvsgroup.com">Submit</a></button>
                     </div>
             </div>
         </div>

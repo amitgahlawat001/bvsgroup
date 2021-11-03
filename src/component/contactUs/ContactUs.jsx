@@ -31,20 +31,20 @@ function ContactUs() {
                     <div className="row g-3">
                         <div className="col">
                             <label for="inputFName4" className="form-label">First Name</label>
-                            <input type="text" className="form-control" aria-label="First name" name='fName'/>
+                            <input type="text" className="form-control" aria-label="First name" name='fName' required/>
                         </div>
                         <div className="col">
                             <label for="inputLName4" className="form-label">last Name</label>
-                            <input type="text" className="form-control" aria-label="Job Title" name='lName'/>
+                            <input type="text" className="form-control" aria-label="Job Title" name='lName' required/>
                         </div>
                         <div className="col2">
                             <label for="inputEmail4" className="form-label">Email</label>
-                            <input type="email" className="form-control" id="inputEmail4" name='email'/>
+                            <input type="email" className="form-control" id="inputEmail4" name='email' required/>
                         </div>
                         <div className="mb-3">
                             <label for="inputJob4" className="form-label">Message</label>
                             <div className="form-floating">
-                                <textarea className="form-control" id="floatingTextarea2" style={{ height: 100 }} name='message'></textarea>
+                                <textarea className="form-control" id="floatingTextarea2" style={{ height: 100 }} name='message' required/>
                                 <label for="floatingTextarea2">Leave your message here</label>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ function ContactUs() {
                             onChange={onChange}
                         />
                         <div className="col-auto">
-                            <button type="submit" className="btn btn-primary" disabled={!state.isVerified}>Submit</button>
+                            <button type="submit" className="btn btn-primary" disabled={!state.isVerified}><a href="mailto:info@bvsgroup.com">Submit</a></button>
                         </div>
                     </div>
                 </div>

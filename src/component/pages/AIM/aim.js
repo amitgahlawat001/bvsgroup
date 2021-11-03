@@ -4,7 +4,7 @@ import "./aim.css";
 function Aim() {
   return (
     <>
-      <div className="aboutBg"></div>
+      <div className="about"></div>
       <div class="wrapper">
         <h1 class="title">Aim & Objectives</h1>
         <p>

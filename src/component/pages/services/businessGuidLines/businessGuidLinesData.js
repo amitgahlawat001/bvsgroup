@@ -1,7 +1,7 @@
 export default [
     {
         name: 'Chapter 1',
-        path: "/wp-content/themes/logistic/pdfs/import/chapter-1.pdf",
+        path: "https://contransgroup.com/wp-content/themes/logistic/pdfs/import/chapter-1.pdf",
         description: '#a8edea → #fed6e3',
         css: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
         height: 200,
@@ -9,7 +9,7 @@ export default [
     {
         name: 'Chapter 2',
         description: '#f5f7fa → #c3cfe2',
-        path: "/wp-content/themes/logistic/pdfs/import/chapter-2.pdf",
+        path: "/chapter-2.pdf",
         css: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
         height: 400,
     },

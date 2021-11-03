@@ -1,11 +1,3 @@
-.aboutBg {
-    background: url(../../../images/aboutbg1.jpg) no-repeat;
-    background-size: cover;
-    height: auto;
-    display: table;
-    width: 100%;
-}
-
 .aboutus-wrapper .ab-col2 h3 {
     color: #747171;
     font-family: 'Raleway', sans-serif;
