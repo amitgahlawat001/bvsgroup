@@ -1,12 +1,14 @@
 import React from "react";
+import line from '../../../images/career-line.jpg'
 import "./aim.css";
 
 function Aim() {
   return (
     <>
       <div className="about"></div>
-      <div class="wrapper">
-        <h1 class="title">Aim & Objectives</h1>
+      <div className="ab_container">
+        <h1 className="title">Aim & Objectives</h1>
+        <img width='100%' src={line} alt='' />
         <p>
           Aims and objectives form a very important part of one’s work ethics.
           They decide what you want to reach and what you need to abide by while

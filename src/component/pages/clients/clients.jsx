@@ -1,5 +1,6 @@
 import React from "react";
 import { useMemo } from "react";
+import line from '../../../images/career-line.jpg'
 import { slideData } from "../../lowerslide/sliderData";
 
 function Clients() {
@@ -12,6 +13,7 @@ function Clients() {
       <div className="aboutBg"> </div>
       <div class="wrapper">
         <h1 class="title"> Clients </h1>
+        <img width='100%' src={line} alt='' />
         <div className="slider"> {lowerSlider} </div>
       </div>
     </>

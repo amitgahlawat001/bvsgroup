@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Footer from './component/Footer';
 import Header from './component/Header';
 import AboutUs from './component/pages/aboutUs/aboutUs';
@@ -25,9 +26,8 @@ import CurrencyConverter from './component/pages/utilities/CurrencyConverter';
 
 function App() {
     return (
-        <Router>
+        <BrowserRouter basename="/bvsgroup">
             <Header />
-            <switch>
                 <Route path='/' exact component={Home} />
                 <Route path='/AboutUs' component={AboutUs} />
                 <Route path='/aim' component={Aim} />
@@ -46,10 +46,8 @@ function App() {
                 <Route path='/WorldClock' component={WorldClock} />
                 <Route path='/CurrencyConverter' component={CurrencyConverter} />
                 <Route path='/ContactUs' component={ContactUs} />
-
-            </switch>
             <Footer />
-        </Router>
+        </BrowserRouter>
     )
 }
 
